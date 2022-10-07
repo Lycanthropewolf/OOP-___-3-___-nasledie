@@ -47,12 +47,12 @@ public class Predators extends Mammals {
 
     @Override
     public String toString() {
-        return "Predators{" +
-                "typeOfFood='" + typeOfFood + '\'' +
-                ", livingEnvironment='" + livingEnvironment + '\'' +
-                ", travelSpeed=" + travelSpeed +
-                ", animalName='" + animalName + '\'' +
-                ", age=" + age +
+        return "Хищники {" +
+                "Тип пищи='" + typeOfFood + '\'' +
+                ", Место обитания ='" + livingEnvironment + '\'' +
+                ", Скорость движения =" + travelSpeed +
+                ", название животного='" + animalName + '\'' +
+                ", возраст =" + age +
                 '}';
     }
 
