@@ -35,7 +35,7 @@ public class Flying extends Birds{
 
     @Override
     public void hunt() {
-        System.out.println(" ловить добычу и растения используя клюв");
+        System.out.println(" ловить добычу или растения используя клюв");
     }
     public void fly(){
         System.out.println(" размахивать крыльями");
@@ -58,11 +58,11 @@ public class Flying extends Birds{
 
     @Override
     public String toString() {
-        return "Flying{" +
-                "movementType='" + movementType + '\'' +
-                ", livingEnvironment='" + livingEnvironment + '\'' +
-                ", animalName='" + animalName + '\'' +
-                ", age=" + age +
+        return "Летающие птицы{" +
+                "Тип передвижения ='" + movementType + '\'' +
+                ", Зоны обитания ='" + livingEnvironment + '\'' +
+                ", Название животного ='" + animalName + '\'' +
+                ", Возраст=" + age +
                 '}';
     }
 }

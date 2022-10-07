@@ -24,7 +24,7 @@ public class Amphibians extends Animals {
 
     @Override
     public void eat() {
-        System.out.println("кушать насекомых");
+        System.out.println("кушать насекомых и прочую мелкую живность");
 
     }
 
@@ -36,11 +36,11 @@ public class Amphibians extends Animals {
 
     @Override
     public void move() {
-        System.out.println(" двигаться для поиска жуков");
+        System.out.println(" двигаться для поиска жуков и других мелких животных");
 
     }
     public void hunt(){
-        System.out.println(" ловить жуков при любой возможности");
+        System.out.println(" ловить жуков и других земноводных при любой возможности");
 
     }
 
@@ -60,10 +60,10 @@ public class Amphibians extends Animals {
 
     @Override
     public String toString() {
-        return "Amphibians{" +
-                "livingEnvironment='" + livingEnvironment + '\'' +
-                ", animalName='" + animalName + '\'' +
-                ", age=" + age +
+        return "Земноводные{" +
+                "место обитания='" + livingEnvironment + '\'' +
+                ", название животного ='" + animalName + '\'' +
+                ", возраст =" + age +
                 '}';
     }
 }

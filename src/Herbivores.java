@@ -19,7 +19,7 @@ public class Herbivores extends Mammals {
 
     @Override
     public void eat() {
-        System.out.println(" медленно щипать свежую травку");
+        System.out.println(" медленно щипать свежую травку либо листву");
     }
 
     @Override
@@ -30,7 +30,7 @@ public class Herbivores extends Mammals {
 
     @Override
     public void move() {
-        System.out.println(" двигаться в поисках свежей травки");
+        System.out.println(" двигаться в поисках свежей травки или листвы");
 
     }
 
@@ -58,12 +58,12 @@ public class Herbivores extends Mammals {
 
     @Override
     public String toString() {
-        return "Herbivores{" +
-                "typeOfFood='" + typeOfFood + '\'' +
-                ", livingEnvironment='" + livingEnvironment + '\'' +
-                ", travelSpeed=" + travelSpeed +
-                ", animalName='" + animalName + '\'' +
-                ", age=" + age +
+        return "Травоядные {" +
+                "питается ='" + typeOfFood + '\'' +
+                ", Обитает в ='" + livingEnvironment + '\'' +
+                ", скорость передвижения =" + travelSpeed +
+                ", Название животного ='" + animalName + '\'' +
+                ", возраст =" + age +
                 '}';
     }
 }
